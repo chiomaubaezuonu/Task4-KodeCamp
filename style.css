@@ -5,7 +5,6 @@
 }
 .wrapper{
     margin: 0 auto;
-    /* background-color: rgb(239, 239, 255); */
     width: 80%;
 }
 .process-section{
@@ -13,9 +12,12 @@
 }
 .left-and-right-text{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 5rem 2rem;
     width: 100%;
+}
+.left-text{
+    width: 50%;
 }
 .left-text h1{
     font-family: 'Manrope', sans-serif;
@@ -33,16 +35,22 @@
 }
 .right{
     font-family: 'Manrope', sans-serif;
-    font-size: 700;
+    font-weight: 700;
+    padding-top: 0.1rem;
+    margin-top: 2.3rem;
 }
 .rightP{
     font-family: 'Manrope', sans-serif;
     font-size: 600;
     padding-bottom: 2rem;
 }
+/* .right-text{
+
+} */
 .number-icon{
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 .circle{
     margin-bottom: 3.5rem;

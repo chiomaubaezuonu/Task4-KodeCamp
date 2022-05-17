@@ -14,16 +14,18 @@
 .left-and-right-text{
     display: flex;
     justify-content: space-between;
-    padding: 5rem 5rem;
+    padding: 5rem 2rem;
+    width: 100%;
 }
 .left-text h1{
     font-family: 'Manrope', sans-serif;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 800;
+    margin-bottom: 1rem;
 } 
 .left-text p{
     font-family: 'Manrope', sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 .right-text-images{
@@ -45,6 +47,9 @@
 .circle{
     margin-bottom: 3.5rem;
     margin-right: 0.7rem;
+}
+#circle3{
+    padding-bottom: 4rem;
 }
 .offer-section{
     background-color: #F2F2F2;
@@ -171,3 +176,145 @@ padding-left: 4rem;
     font-size: 2rem;
     padding: 2rem;
 }
+
+ @media(max-width:769px){
+    .wrapper{
+        margin: auto;
+        width: 80%;
+    }
+    .process-section,.offer-section,.ratings-section{
+        width: 100%;
+    }
+    .left-and-right-text{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .left-text h1{
+        font-size: 1.7rem;
+        padding-bottom: 0.6rem;
+    }
+    .left-text p{
+        font-size: 1rem;
+        padding-bottom: 3rem;
+    }
+    #h2-two{
+        margin-top: 3rem;
+    }
+    #p-three{
+        margin-top: 1rem;
+    }
+    #h2-three{
+        margin-top: 2rem;
+    }
+    .offer-section h2{
+        font-size: 1.5rem;
+    }
+    .first-row-img{
+        margin-bottom: 0.2rem; 
+    }
+    .diagnostics-img,.engine-repair-icon,.wheel-repair-icon,.oil-filter-icon{
+        display: flex;
+        flex-direction: column;
+        height: 6rem;
+        width: 6rem;
+        margin-right: 0.1rem;
+    }
+    .offer-section .group1img, .group2img {
+        width: 3rem;
+        padding-left: 1rem;
+    }
+   .offer-section .desc{
+        font-size: 0.7rem;
+    }
+    .body-work-icon,.batteries,.insurance-claim-icon,.custom-icon{
+        display: flex;
+        flex-direction: column;
+        height: 6rem;
+        width: 6rem;
+        margin-right: 1rem; 
+    }
+    .percentage{
+        display: flex;
+    }
+    .professional,.experience,.service,.satisfaction{
+        padding: 1.2rem;
+    }
+}
+@media(max-width: 426px){
+    .wrapper{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .process-section,.offer-section,.ratings-section{
+        width: 100%;
+    }
+    .left-and-right-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-text h1{
+        font-size: 1.7rem;
+        text-align: center;
+        margin-bottom: 1.3rem;
+    }
+    .left-text p{
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .right-text-images {
+        display: flex;
+    }
+    .right, .rightP{
+        font-size: 1.2rem;
+    }
+    #h2-two{
+        margin-top: 0.1rem;
+    }
+    #h2-three{
+        margin-top: 0.1rem;
+    }
+    #p-three{
+        margin-top: 0.1rem;
+    }
+    .process-section{
+        padding-bottom: 1rem;
+    }
+    .offer-section h2 {
+        font-size: 1.4rem;
+    }
+    .offer-section p{
+        font-size: 0.8rem;
+    }
+    .offer-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .diagnostics-img,.engine-repair-icon,.wheel-repair-icon,.oil-filter-icon {
+        height:5.7rem;
+        width: 5.7rem;
+        margin: 0.1rem;
+    }
+    .offer-section .desc{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .group1img,.group2img {
+        display: none;
+    }
+    .body-work-icon,.batteries,.insurance-claim-icon,.custom-icon{
+        height: 5.7rem;
+        width: 5.7rem;
+        margin: 0.1rem;
+    } 
+
+    .percentage{
+        display: flex;
+        flex-direction: column;
+    }
+    .professional,.experience,.service,.satisfaction{
+        margin: auto;
+        padding: 1rem;
+    }
+    } 
